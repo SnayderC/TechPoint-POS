@@ -50,7 +50,7 @@ El sistema implementa un modelo de **Control de Acceso Basado en Roles (RBAC)**:
 *   **Núcleo**: Django REST Framework (Python 3.12) & PostgreSQL 15.
 *   **Interfaz**: React 18 + Tailwind CSS (Diseño adaptable y moderno).
 *   **Seguridad**: Blindaje JWT (JSON Web Tokens).
-*   **Infraestructura**: Arquitectura de microservicios mediante Docker.
+*   **Infraestructura**: Arquitectura Full Stack contenerizada mediante Docker Compose
 
 ---
 
@@ -58,7 +58,8 @@ El sistema implementa un modelo de **Control de Acceso Basado en Roles (RBAC)**:
 
 1.  **Clonar el repositorio**:
     ```bash
-    git clone https://github.com/tu-usuario/proyecto-pos.git
+    git clone https://github.com/SnayderC/TechPoint-POS.git
+    cd TechPoint-POS
     ```
 2.  **Levantar el entorno**:
     ```bash
